@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+
+import MuiStoryblok from 'mui-storyblok'
+import SbComponentDocumentation from './components/SbComponentDocumentation/SbComponentDocumentation';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MuiStoryblok
+    theme={{}} 
+    accessToken="fa2Qt4skFijvgTqoT2xYrAtt"
+    version="draft"
+    customComponents={[{
+      componentName: 'SbComponentDocumentation',
+      Component: SbComponentDocumentation,
+      props: {},
+    }]}
+  />
   );
 }
 
