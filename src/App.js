@@ -1,7 +1,8 @@
 import './App.css';
 import MuiStoryblok from 'mui-storyblok'
-import SbComponentDocumentation from './components/SbComponentDocumentation/SbComponentDocumentation';
 import Grid from '@material-ui/core/Grid';
+import SbComponentDocumentation from './components/SbComponentDocumentation/SbComponentDocumentation';
+import ComponentList from './components/ComponentList/ComponentList';
 
 function App() {
   return (
@@ -16,13 +17,7 @@ function App() {
           xs={2}
           direction="row"
           style={{ overflow: 'scroll', height: '100vh', boxShadow: '1px 1px 4px -1px grey' }}>
-        <ol>
-          <li>test</li>
-          <li>test 1</li>
-          <li>test 2 </li>
-          <li>test 3</li>
-          <li>test 4</li>
-        </ol>
+          <ComponentList />
         </Grid>
         <Grid item xs={10} style={{ overflow: 'scroll', height: '100vh' }}>
           <MuiStoryblok
