@@ -2,7 +2,7 @@ import './App.css';
 import MuiStoryblok from 'mui-storyblok'
 import Grid from '@material-ui/core/Grid';
 import SbComponentDocumentation from './components/SbComponentDocumentation/SbComponentDocumentation';
-import ComponentList from './components/ComponentList/ComponentList';
+import Search from './components/Search/Search';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           xs={2}
           direction="row"
           style={{ overflow: 'scroll', height: '100vh', boxShadow: '1px 1px 4px -1px grey' }}>
-          <ComponentList />
+            <Search />
         </Grid>
         <Grid item xs={10} style={{ overflow: 'scroll', height: '100vh' }}>
           <MuiStoryblok

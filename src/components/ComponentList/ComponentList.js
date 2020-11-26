@@ -1,10 +1,8 @@
-import { components } from '../../components.json'
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-function ComponentList() {
-
+function ComponentList({ searchResults }) {
   const handleClick = component => {
     const origin = window.location.origin
     window.localStorage.setItem('componentData', JSON.stringify(component))
@@ -13,7 +11,7 @@ function ComponentList() {
 
   return (
     <List aria-label="main mailbox folders">
-      {components.map(component => {
+      {searchResults.map(component => {
         return (
           <ListItem key={component.id} button onClick={() => handleClick(component)}>
             <ListItemText primary={component.name} />
