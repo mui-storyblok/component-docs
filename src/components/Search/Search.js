@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Fuse from 'fuse.js'
-import { TextField } from '@material-ui/core';
+import { TextField, FormControl, InputAdornment } from '@material-ui/core';
+import SearchIcon from '@material-ui/icons/Search';
+
 import ComponentList from '../ComponentList/ComponentList';
 import { components } from '../../components.json'
 
@@ -32,14 +34,21 @@ function Search() {
   }
 
   return (
-    <>
-      <TextField 
+      <FormControl fullWidth>
+        <TextField
         onChange={e => search(e.target.value)}
-        variant="outlined"
+        label="Search"
+        InputProps={{
+          startAdornment: (
+            <InputAdornment position="start">
+              <SearchIcon />
+            </InputAdornment>
+          ),
+        }}
       />
 
       <ComponentList searchResults={searchResults}/>
-    </>
+    </FormControl>
   );
 };
 
