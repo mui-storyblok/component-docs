@@ -6,8 +6,13 @@ import SearchIcon from '@material-ui/icons/Search';
 import ComponentList from '../ComponentList/ComponentList';
 import { components } from '../../components.json'
 
+// TODO - we can remove this once we clean up and remove the legacy components from SB
+const filterOutLegacyComponents = (components) => {
+  return components.filter(component => !component.name.includes('Mui'));
+}
+
 function Search() {
-  const [state, setState] = useState({ components })
+  const [state, setState] = useState({ components: filterOutLegacyComponents(components) })
   const [searchResults, setSearchResults] = useState([])
 
   useEffect(() => {
