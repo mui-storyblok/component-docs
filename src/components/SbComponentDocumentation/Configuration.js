@@ -46,7 +46,7 @@ function Configuration({ config }) {
         Configuration
       </Typography>
 
-      { formatConfigSections({...config}).map(section =>  <Section section={section}/>) }
+      { formatConfigSections({...config}).map(section =>  <Section key={section.name} section={section}/>) }
     </Grid>
   );
 }
