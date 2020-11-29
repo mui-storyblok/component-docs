@@ -42,7 +42,7 @@ function Search() {
       <FormControl fullWidth>
         <TextField
         onChange={e => search(e.target.value)}
-        label="Search"
+        label="Search components by name"
         InputProps={{
           startAdornment: (
             <InputAdornment position="start">
