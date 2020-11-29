@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/component-docs/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/component-docs/static/js/main.8b00378a.chunk.js",
+    "main.js.map": "/component-docs/static/js/main.8b00378a.chunk.js.map",
+    "runtime-main.js": "/component-docs/static/js/runtime-main.6300535c.js",
+    "runtime-main.js.map": "/component-docs/static/js/runtime-main.6300535c.js.map",
+    "static/css/2.f1ea404b.chunk.css": "/component-docs/static/css/2.f1ea404b.chunk.css",
+    "static/js/2.cde8fe9d.chunk.js": "/component-docs/static/js/2.cde8fe9d.chunk.js",
+    "static/js/2.cde8fe9d.chunk.js.map": "/component-docs/static/js/2.cde8fe9d.chunk.js.map",
+    "static/js/3.1c509ae0.chunk.js": "/component-docs/static/js/3.1c509ae0.chunk.js",
+    "static/js/3.1c509ae0.chunk.js.map": "/component-docs/static/js/3.1c509ae0.chunk.js.map",
+    "index.html": "/component-docs/index.html",
+    "static/css/2.f1ea404b.chunk.css.map": "/component-docs/static/css/2.f1ea404b.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/component-docs/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.cde8fe9d.chunk.js.LICENSE.txt": "/component-docs/static/js/2.cde8fe9d.chunk.js.LICENSE.txt",
+    "static/media/flags.png": "/component-docs/static/media/flags.5bc53ca7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6300535c.js",
+    "static/css/2.f1ea404b.chunk.css",
+    "static/js/2.cde8fe9d.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.8b00378a.chunk.js"
+  ]
+}
