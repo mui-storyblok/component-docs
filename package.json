@@ -9,7 +9,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
     "fuse.js": "^6.4.3",
-    "mui-storyblok": "^1.1.13-beta-5",
+    "mui-storyblok": "^1.1.13-beta-6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
