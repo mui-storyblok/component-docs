@@ -10,15 +10,15 @@ function ComponentList({ searchResults }) {
   }
 
   return (
-    <List aria-label="main mailbox folders">
-      {searchResults.map(component => {
-        return (
-          <ListItem key={component.id} button onClick={() => handleClick(component)}>
-            <ListItemText primary={component.name} />
-          </ListItem>
-        )
-      })}
-  </List>
+    <List aria-label="component search list">
+        {searchResults.map(component => {
+          return (
+            <ListItem key={component.id} button onClick={() => handleClick(component)}>
+              <ListItemText primary={component.name} secondary={component.component_group_name} />
+            </ListItem>
+          )
+        })}
+    </List>
   );
 };
 
