@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/component-docs/static/css/main.518ce94c.chunk.css",
-    "main.js": "/component-docs/static/js/main.814e3ccd.chunk.js",
-    "main.js.map": "/component-docs/static/js/main.814e3ccd.chunk.js.map",
-    "runtime-main.js": "/component-docs/static/js/runtime-main.8f818b62.js",
-    "runtime-main.js.map": "/component-docs/static/js/runtime-main.8f818b62.js.map",
+    "main.js": "/component-docs/static/js/main.b34d01ff.chunk.js",
+    "main.js.map": "/component-docs/static/js/main.b34d01ff.chunk.js.map",
+    "runtime-main.js": "/component-docs/static/js/runtime-main.81ef7e9d.js",
+    "runtime-main.js.map": "/component-docs/static/js/runtime-main.81ef7e9d.js.map",
     "static/css/2.f1ea404b.chunk.css": "/component-docs/static/css/2.f1ea404b.chunk.css",
-    "static/js/2.306f0c09.chunk.js": "/component-docs/static/js/2.306f0c09.chunk.js",
-    "static/js/2.306f0c09.chunk.js.map": "/component-docs/static/js/2.306f0c09.chunk.js.map",
-    "static/js/3.f80a3dd3.chunk.js": "/component-docs/static/js/3.f80a3dd3.chunk.js",
-    "static/js/3.f80a3dd3.chunk.js.map": "/component-docs/static/js/3.f80a3dd3.chunk.js.map",
+    "static/js/2.560cd623.chunk.js": "/component-docs/static/js/2.560cd623.chunk.js",
+    "static/js/2.560cd623.chunk.js.map": "/component-docs/static/js/2.560cd623.chunk.js.map",
+    "static/js/3.3ea6f865.chunk.js": "/component-docs/static/js/3.3ea6f865.chunk.js",
+    "static/js/3.3ea6f865.chunk.js.map": "/component-docs/static/js/3.3ea6f865.chunk.js.map",
     "index.html": "/component-docs/index.html",
     "static/css/2.f1ea404b.chunk.css.map": "/component-docs/static/css/2.f1ea404b.chunk.css.map",
     "static/css/main.518ce94c.chunk.css.map": "/component-docs/static/css/main.518ce94c.chunk.css.map",
-    "static/js/2.306f0c09.chunk.js.LICENSE.txt": "/component-docs/static/js/2.306f0c09.chunk.js.LICENSE.txt",
+    "static/js/2.560cd623.chunk.js.LICENSE.txt": "/component-docs/static/js/2.560cd623.chunk.js.LICENSE.txt",
     "static/media/flags.png": "/component-docs/static/media/flags.5bc53ca7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f818b62.js",
+    "static/js/runtime-main.81ef7e9d.js",
     "static/css/2.f1ea404b.chunk.css",
-    "static/js/2.306f0c09.chunk.js",
+    "static/js/2.560cd623.chunk.js",
     "static/css/main.518ce94c.chunk.css",
-    "static/js/main.814e3ccd.chunk.js"
+    "static/js/main.b34d01ff.chunk.js"
   ]
 }
