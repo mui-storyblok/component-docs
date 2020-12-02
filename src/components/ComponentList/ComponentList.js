@@ -1,12 +1,14 @@
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
+import { useHistory } from "react-router-dom";
 
 function ComponentList({ searchResults }) {
+  let history = useHistory()
+
   const handleClick = component => {
-    const origin = window.location.origin
     window.localStorage.setItem('componentData', JSON.stringify(component))
-    window.location.href = `${origin}/page-${component.name.toLowerCase()}`
+    history.go(`/component-docs/page-${component.name.toLowerCase()}`)
   }
 
   return (
