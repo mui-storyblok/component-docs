@@ -7,10 +7,13 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/component-docs" exact>
+      <Route path="/" exact>
         <App />
       </Route>
-      <Route path="/component-docs/page**" exact>
+      <Route path="/**" exact>
+        <App />
+      </Route>
+      <Route path="/component-docs/**" exact>
         <App />
       </Route>
     </Switch>
