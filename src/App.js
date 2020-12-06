@@ -44,7 +44,8 @@ function App() {
         item 
         xs={10}
         >
-        <MuiStoryblok
+          <p>Cool beans</p>
+        {/* <MuiStoryblok
             theme={{}} 
             accessToken="fa2Qt4skFijvgTqoT2xYrAtt"
             version="draft"
@@ -54,7 +55,7 @@ function App() {
               Component: SbComponentDocumentation,
               props: {},
             }]}
-          />
+          /> */}
       </Grid>
 
     </Grid>
