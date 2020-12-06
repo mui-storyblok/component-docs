@@ -48,6 +48,7 @@ function App() {
             theme={{}} 
             accessToken="fa2Qt4skFijvgTqoT2xYrAtt"
             version="draft"
+            dynamicSlug="component-docs/getting-started"
             customComponents={[{
               componentName: 'SbComponentDocumentation',
               Component: SbComponentDocumentation,
