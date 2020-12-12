@@ -8,7 +8,7 @@ function ComponentList({ searchResults }) {
 
   const handleClick = component => {
     window.localStorage.setItem('componentData', JSON.stringify(component))
-    history.go(`/component-docs/page-${component.name.toLowerCase()}`)
+    window.location.assign(`${window.location.origin}/component-docs/page-${component.name.toLowerCase()}`);
   }
 
   return (

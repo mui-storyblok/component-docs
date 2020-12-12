@@ -23,8 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && aws s3 sync build/ s3://mui-storyblok-component-docs.com/ --region us-east-1 --delete"
   },
   "eslintConfig": {
     "extends": [
